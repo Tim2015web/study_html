@@ -140,7 +140,7 @@ display: none;
 }
 
 .popup_radio:checked+.radio-text::before {
-    background-image: url(..//svg/form-circle.svg);
+    background-image: url(../svg/form-circle.svg);
 }
 
 .popup-text-field {
