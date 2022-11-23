@@ -178,7 +178,7 @@ display: none;
 
 /* Header */
 .header {
-    background-image: url(./images/banner-bg.jpg);
+    background-image: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: gray;
