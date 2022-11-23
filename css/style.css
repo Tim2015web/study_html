@@ -41,7 +41,7 @@ display: none;
     right: 0;
     padding: 0;
     cursor: pointer;
-    background-image: url(../svg/form-x.svg);
+    background-image: url(./svg/form-x.svg);
     background-size: 18px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -95,7 +95,7 @@ display: none;
     color: #000000;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url(../svg/form-arrows.svg);
+    background-image: url(./svg/form-arrows.svg);
     background-size: 10px;
     background-repeat: no-repeat;
     background-position: right 10px center;
@@ -132,7 +132,7 @@ display: none;
     vertical-align: middle;
     width: 16px;
     height: 16px;
-    background-image: url(../svg/form-empty-circle.svg);
+    background-image: url(./svg/form-empty-circle.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 16px;
@@ -140,7 +140,7 @@ display: none;
 }
 
 .popup_radio:checked+.radio-text::before {
-    background-image: url(..//svg/form-circle.svg);
+    background-image: url(.//svg/form-circle.svg);
 }
 
 .popup-text-field {
@@ -178,7 +178,7 @@ display: none;
 
 /* Header */
 .header {
-    background-image: url(../images/banner-bg.jpg);
+    background-image: url(./images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: gray;
@@ -647,7 +647,7 @@ display: none;
     padding: 0;
     cursor: pointer;
     background-color: #B59F5B;
-    background-image: url(../svg/search.svg);
+    background-image: url(./svg/search.svg);
     background-size: 18px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -947,19 +947,19 @@ display: none;
 }
 
 .footer-social_menu-link-dribbble {
-    background-image: url(../svg/001-dribbble.svg);
+    background-image: url(./svg/001-dribbble.svg);
 }
 
 .footer-social_menu-link-pinterest {
-    background-image: url(../svg/002-pinterest.svg);
+    background-image: url(./svg/002-pinterest.svg);
 }
 
 .footer-social_menu-link-tumblr {
-    background-image: url(../svg/003-tumblr.svg);
+    background-image: url(./svg/003-tumblr.svg);
 }
 
 .footer-social_menu-link-twitter {
-    background-image: url(../svg/004-twitter.svg);
+    background-image: url(./svg/004-twitter.svg);
 }
 
 .footer-copyright {
@@ -983,7 +983,7 @@ display: none;
 /* Tablet */
 @media (min-width: 641px) and (max-width: 1200px) {
     .header {
-        background-image: url(../images/banner-bg-tablet.jpg);
+        background-image: url(./images/banner-bg-tablet.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-color: gray;
@@ -1176,7 +1176,7 @@ display: none;
     }
 
     .header {
-        background-image: url(../images/banner-mobile.jpg);
+        background-image: url(./images/banner-mobile.jpg);
     }
 
     .header_logo {
@@ -1387,14 +1387,14 @@ display: none;
 /* Connection fonts */
 @font-face {
     font-family: OpenSans-Regular;
-    src: url(../fonts/OpenSans-Regular.ttf);
-    src: url(../fonts/OpenSans-Regular.woff);
-    src: url(..//fonts/OpenSans-Regular.woff2);
+    src: url(./fonts/OpenSans-Regular.ttf);
+    src: url(./fonts/OpenSans-Regular.woff);
+    src: url(./fonts/OpenSans-Regular.woff2);
 }
 
 @font-face {
     font-family: OpenSans-Bold;
-    src: url(../fonts/OpenSans-Bold.ttf);
-    src: url(../fonts/OpenSans-Bold.woff);
-    src: url(../fonts/OpenSans-Bold.woff2);
+    src: url(./fonts/OpenSans-Bold.ttf);
+    src: url(./fonts/OpenSans-Bold.woff);
+    src: url(./fonts/OpenSans-Bold.woff2);
 }
